@@ -1,0 +1,125 @@
+body, html {
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+.tabsBlock {
+    height: 40px;
+    width: 900px;
+    padding: 0px;
+    position: absolute;
+    z-index: 100;
+}
+
+.tabChecked{
+    height: auto;
+    margin-right: 15px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    display: inline-block;
+    border-radius: 5px 5px 0px 0px;
+    padding: 0px 5px 0px 5px;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    cursor:pointer;
+    border-bottom: 1px solid white;
+    z-index: 100;
+}
+
+.tabNotChecked {
+    height: 29px;
+    margin-right: 15px;
+    background-color: lightgray;
+    border: 1px solid #000000;
+    display: inline-block;
+    border-radius: 5px 5px 0px 0px;
+    padding: 0px 5px 0px 5px;
+    color: #000000;
+    text-align: center;
+    line-height: 29px;
+    cursor:pointer;
+    z-index: 0;
+    border-bottom: none;
+}
+
+.window{
+    width: 1225px;
+    height: auto;
+
+    background-color: #ffffff;
+
+    border: 1px solid #000000;
+    position: absolute;
+    top: 345px;
+
+}
+
+.cardText{
+    width: 400px;
+    left:350px;
+    position: absolute;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-left: 50px;
+
+}
+.photocard{
+    height: 350px;
+    width: auto;
+    display:inline-block;
+    float: left;
+}
+h1{
+    font-size: 22px;
+    color: #e82a13;
+    padding: 0;
+    margin: 0;
+}
+.buyItem{
+    background-color: #bfeea2;
+    height: 100%;
+    width: 350px;
+    position: absolute;
+    left: 875px;
+}
+
+h5{
+    font-size: 35px;
+    text-align: center;
+    color: #345a83;
+    margin:30px 30px 30px 35px;
+}
+.displayWin{
+    display: none;
+}
+.textOnly{
+    padding:0 20px 0 20px;
+}
+.comment{
+    background-color: #eeeeee;
+    margin: 10px;
+    padding: 10px;
+}
+.comment h6{
+    color:#e74c3c;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+b{
+    color: #345a83;
+}
+.mainOrder{
+    text-align: center;
+    margin: 60px;
+    margin-top: 80px;
+}

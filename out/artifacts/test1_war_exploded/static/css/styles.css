@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body, html {
+    height: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+.hat{
+
+    background-image: url(/static/Ru_Hat.png);
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 250px;
+    left: 500px;
+    position: absolute;
+}
+body{
+    background-color: #eeeeee;
+}
+.position{
+    margin-left:15%;
+    margin-right:15%;
+    width: 1250px;
+    margin-bottom: 30px;
+}
+header{
+    background-color: #bfeea2;
+    width: 1220px;
+    height: 250px;
+}
+.userPanel{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn {
+    font-weight: bold;
+    border-radius: 5px;
+    height: auto;
+    width: 150px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    border: 3px solid black;
+    background-color: #bfeea2;
+    color: black;
+    padding: 20px;
+    left: 29px;
+    text-align: center;
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+
+.btn:hover {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+.local{
+    margin: 20px;
+}
+.local img{
+    border: 3px solid black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.productCard{
+    width: 1220px;
+    height: 240px;
+    display: inline-block;
+    background-color: white;
+    border-bottom: 5px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Параметры тени */
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.productCard:hover{
+    width: 1220px;
+    height: 240px;
+    display: inline-block;
+    background-color: white;
+    border-bottom: 5px solid #bfeea2;
+    box-shadow: 0 0 10px rgba(82, 136, 68, 0.5); /* Параметры тени */
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.productCard img{
+    border-radius: 20px;
+    width: 240px;
+    height: 240px;
+    left: 20px;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.robotName{
+    display: block;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+    margin-top: 10px;
+    width: 650px;
+    display: inline-block;
+}
+nav{
+    width: 1220px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+nav a{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80px;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #bfeea2;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80px;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+}
+.textPosition{
+    margin-left: 70px;
+    height: 230px;
+}
+.greyBlock{
+    height: 245px;
+    width: 270px;
+    background-color: #bfeea2;
+    z-index: 500;
+    float: right;
+}
+.buy {
+    font-weight: bold;
+    border-radius: 5px;
+    height: auto;
+    width: 120px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    background-color: #fe1616;
+    color: #fffefc;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.buy:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+
+.buy:hover {
+    font-weight: bold;
+    background-color: #e82a13;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    margin: 5px;
+}
+.order{
+
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+h5{
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+ .comments_container  {
+     background-color: #eeeeee;
+     padding: 5px;
+     border-radius: 10px;
+ }
+.comment_item {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+textarea{
+    margin: 20px;
+    height: 30px;
+    width: 1200px;
+    height: 50px;
+}
